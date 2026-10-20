@@ -1,0 +1,14 @@
+{
+    "primaryColor":  "#16a34a",
+    "secondaryColor":  "#4d7c0f",
+    "accentColor":  "#a16207",
+    "backgroundColor":  "#eef7ec",
+    "surfaceColor":  "#ffffff",
+    "textColor":  "#17361f",
+    "darkBackgroundColor":  "#0e2416",
+    "darkTextColor":  "#d9f0e1",
+    "borderRadius":  "16px",
+    "fontFamily":  "\"Segoe UI\", Tahoma, sans-serif",
+    "emblem":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzE2YTM0YSIvPjxwYXRoIGQ9Ik01MCAxNiBMNjQgMzggTDU2IDM4IEw3MCA2MCBMMzAgNjAgTDQ0IDM4IEwzNiAzOCBaIiBmaWxsPSIjZmZmZmZmIi8+PHJlY3QgeD0iNDYiIHk9IjYwIiB3aWR0aD0iOCIgaGVpZ2h0PSIxOCIgcng9IjIiIGZpbGw9IiNlNmNmYTgiLz48L3N2Zz4=",
+    "watermark":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzE2YTM0YSIvPjxwYXRoIGQ9Ik01MCAxNiBMNjQgMzggTDU2IDM4IEw3MCA2MCBMMzAgNjAgTDQ0IDM4IEwzNiAzOCBaIiBmaWxsPSIjZmZmZmZmIi8+PHJlY3QgeD0iNDYiIHk9IjYwIiB3aWR0aD0iOCIgaGVpZ2h0PSIxOCIgcng9IjIiIGZpbGw9IiNlNmNmYTgiLz48L3N2Zz4="
+}

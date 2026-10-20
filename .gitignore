@@ -1,0 +1,28 @@
+﻿# Build output
+/dist/
+
+# Dependencies
+/node_modules/
+
+# Android build artifacts
+/android/.gradle/
+/android/build/
+/android/app/build/
+
+# Keystore (private)
+/android/keystore/
+/android/keystore.properties
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+
+*.apk

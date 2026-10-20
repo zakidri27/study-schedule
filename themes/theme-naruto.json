@@ -1,0 +1,14 @@
+{
+    "primaryColor":  "#f97316",
+    "secondaryColor":  "#1d4ed8",
+    "accentColor":  "#dc2626",
+    "backgroundColor":  "#fff6ed",
+    "surfaceColor":  "#ffffff",
+    "textColor":  "#3a2413",
+    "darkBackgroundColor":  "#20120a",
+    "darkTextColor":  "#ffe8d3",
+    "borderRadius":  "14px",
+    "fontFamily":  "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+    "emblem":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iI2Y5NzMxNiIvPjxwYXRoIGQ9Ik01MCAxNiBDIDI4IDM0IDI4IDY2IDUwIDg2IEMgNzIgNjYgNzIgMzQgNTAgMTYgWiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik01MCAzMCBDIDYxIDM3IDYxIDUxIDUwIDU4IEMgNDEgNjIgMzYgNTMgNDMgNDgiIHN0cm9rZT0iI2Y5NzMxNiIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=",
+    "watermark":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iI2Y5NzMxNiIvPjxwYXRoIGQ9Ik01MCAxNiBDIDI4IDM0IDI4IDY2IDUwIDg2IEMgNzIgNjYgNzIgMzQgNTAgMTYgWiIgZmlsbD0iI2ZmZmZmZiIvPjxwYXRoIGQ9Ik01MCAzMCBDIDYxIDM3IDYxIDUxIDUwIDU4IEMgNDEgNjIgMzYgNTMgNDMgNDgiIHN0cm9rZT0iI2Y5NzMxNiIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4="
+}

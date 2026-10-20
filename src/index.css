@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+/* Custom dark mode support */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Map Tailwind color families to runtime theme variables so an imported theme repaints the whole UI */
+@theme inline {
+  /* primary -> blue */
+  --color-blue-50: color-mix(in srgb, var(--theme-primaryColor) 6%, white);
+  --color-blue-100: color-mix(in srgb, var(--theme-primaryColor) 14%, white);
+  --color-blue-200: color-mix(in srgb, var(--theme-primaryColor) 26%, white);
+  --color-blue-300: color-mix(in srgb, var(--theme-primaryColor) 42%, white);
+  --color-blue-400: color-mix(in srgb, var(--theme-primaryColor) 68%, white);
+  --color-blue-500: var(--theme-primaryColor);
+  --color-blue-600: color-mix(in srgb, var(--theme-primaryColor) 88%, black);
+  --color-blue-700: color-mix(in srgb, var(--theme-primaryColor) 76%, black);
+  --color-blue-800: color-mix(in srgb, var(--theme-primaryColor) 62%, black);
+  --color-blue-900: color-mix(in srgb, var(--theme-primaryColor) 48%, black);
+
+  /* secondary -> purple / indigo / pink */
+  --color-purple-50: color-mix(in srgb, var(--theme-secondaryColor) 6%, white);
+  --color-purple-100: color-mix(in srgb, var(--theme-secondaryColor) 14%, white);
+  --color-purple-200: color-mix(in srgb, var(--theme-secondaryColor) 26%, white);
+  --color-purple-300: color-mix(in srgb, var(--theme-secondaryColor) 42%, white);
+  --color-purple-400: color-mix(in srgb, var(--theme-secondaryColor) 68%, white);
+  --color-purple-500: var(--theme-secondaryColor);
+  --color-purple-600: color-mix(in srgb, var(--theme-secondaryColor) 88%, black);
+  --color-purple-700: color-mix(in srgb, var(--theme-secondaryColor) 76%, black);
+  --color-purple-800: color-mix(in srgb, var(--theme-secondaryColor) 62%, black);
+  --color-purple-900: color-mix(in srgb, var(--theme-secondaryColor) 48%, black);
+
+  --color-indigo-50: color-mix(in srgb, var(--theme-secondaryColor) 6%, white);
+  --color-indigo-100: color-mix(in srgb, var(--theme-secondaryColor) 14%, white);
+  --color-indigo-200: color-mix(in srgb, var(--theme-secondaryColor) 26%, white);
+  --color-indigo-300: color-mix(in srgb, var(--theme-secondaryColor) 42%, white);
+  --color-indigo-400: color-mix(in srgb, var(--theme-secondaryColor) 68%, white);
+  --color-indigo-500: var(--theme-secondaryColor);
+  --color-indigo-600: color-mix(in srgb, var(--theme-secondaryColor) 88%, black);
+  --color-indigo-700: color-mix(in srgb, var(--theme-secondaryColor) 76%, black);
+  --color-indigo-800: color-mix(in srgb, var(--theme-secondaryColor) 62%, black);
+  --color-indigo-900: color-mix(in srgb, var(--theme-secondaryColor) 48%, black);
+
+  --color-pink-50: color-mix(in srgb, var(--theme-secondaryColor) 6%, white);
+  --color-pink-100: color-mix(in srgb, var(--theme-secondaryColor) 14%, white);
+  --color-pink-200: color-mix(in srgb, var(--theme-secondaryColor) 26%, white);
+  --color-pink-300: color-mix(in srgb, var(--theme-secondaryColor) 42%, white);
+  --color-pink-400: color-mix(in srgb, var(--theme-secondaryColor) 68%, white);
+  --color-pink-500: var(--theme-secondaryColor);
+  --color-pink-600: color-mix(in srgb, var(--theme-secondaryColor) 88%, black);
+  --color-pink-700: color-mix(in srgb, var(--theme-secondaryColor) 76%, black);
+  --color-pink-800: color-mix(in srgb, var(--theme-secondaryColor) 62%, black);
+  --color-pink-900: color-mix(in srgb, var(--theme-secondaryColor) 48%, black);
+
+  /* accent -> green / emerald / orange */
+  --color-green-50: color-mix(in srgb, var(--theme-accentColor) 6%, white);
+  --color-green-100: color-mix(in srgb, var(--theme-accentColor) 14%, white);
+  --color-green-200: color-mix(in srgb, var(--theme-accentColor) 26%, white);
+  --color-green-300: color-mix(in srgb, var(--theme-accentColor) 42%, white);
+  --color-green-400: color-mix(in srgb, var(--theme-accentColor) 68%, white);
+  --color-green-500: var(--theme-accentColor);
+  --color-green-600: color-mix(in srgb, var(--theme-accentColor) 88%, black);
+  --color-green-700: color-mix(in srgb, var(--theme-accentColor) 76%, black);
+  --color-green-800: color-mix(in srgb, var(--theme-accentColor) 62%, black);
+  --color-green-900: color-mix(in srgb, var(--theme-accentColor) 48%, black);
+
+  --color-emerald-50: color-mix(in srgb, var(--theme-accentColor) 6%, white);
+  --color-emerald-100: color-mix(in srgb, var(--theme-accentColor) 14%, white);
+  --color-emerald-200: color-mix(in srgb, var(--theme-accentColor) 26%, white);
+  --color-emerald-300: color-mix(in srgb, var(--theme-accentColor) 42%, white);
+  --color-emerald-400: color-mix(in srgb, var(--theme-accentColor) 68%, white);
+  --color-emerald-500: var(--theme-accentColor);
+  --color-emerald-600: color-mix(in srgb, var(--theme-accentColor) 88%, black);
+  --color-emerald-700: color-mix(in srgb, var(--theme-accentColor) 76%, black);
+  --color-emerald-800: color-mix(in srgb, var(--theme-accentColor) 62%, black);
+  --color-emerald-900: color-mix(in srgb, var(--theme-accentColor) 48%, black);
+
+  --color-orange-50: color-mix(in srgb, var(--theme-accentColor) 6%, white);
+  --color-orange-100: color-mix(in srgb, var(--theme-accentColor) 14%, white);
+  --color-orange-200: color-mix(in srgb, var(--theme-accentColor) 26%, white);
+  --color-orange-300: color-mix(in srgb, var(--theme-accentColor) 42%, white);
+  --color-orange-400: color-mix(in srgb, var(--theme-accentColor) 68%, white);
+  --color-orange-500: var(--theme-accentColor);
+  --color-orange-600: color-mix(in srgb, var(--theme-accentColor) 88%, black);
+  --color-orange-700: color-mix(in srgb, var(--theme-accentColor) 76%, black);
+  --color-orange-800: color-mix(in srgb, var(--theme-accentColor) 62%, black);
+  --color-orange-900: color-mix(in srgb, var(--theme-accentColor) 48%, black);
+
+  /* neutrals tinted with the primary color */
+  --color-gray-50: color-mix(in srgb, var(--theme-primaryColor) 4%, white);
+  --color-gray-100: color-mix(in srgb, var(--theme-primaryColor) 7%, white);
+  --color-gray-200: color-mix(in srgb, var(--theme-primaryColor) 12%, white);
+  --color-gray-300: color-mix(in srgb, var(--theme-primaryColor) 18%, white);
+  --color-gray-400: color-mix(in srgb, var(--theme-primaryColor) 32%, white);
+  --color-gray-500: color-mix(in srgb, var(--theme-primaryColor) 45%, white);
+  --color-gray-600: color-mix(in srgb, var(--theme-primaryColor) 55%, black);
+  --color-gray-700: color-mix(in srgb, var(--theme-primaryColor) 44%, black);
+  --color-gray-800: color-mix(in srgb, var(--theme-primaryColor) 34%, black);
+  --color-gray-900: color-mix(in srgb, var(--theme-primaryColor) 26%, black);
+
+  /* rounded corners follow the theme */
+  --radius-lg: var(--theme-borderRadius);
+  --radius-xl: var(--theme-borderRadius);
+  --radius-2xl: var(--theme-borderRadius);
+}
+
+:root {
+  --theme-primaryColor: #3b82f6;
+  --theme-secondaryColor: #8b5cf6;
+  --theme-backgroundColor: #f8fafc;
+  --theme-surfaceColor: #ffffff;
+  --theme-textColor: #1e293b;
+  --theme-accentColor: #22c55e;
+  --theme-borderRadius: 12px;
+  --theme-fontFamily: system-ui, -apple-system, sans-serif;
+}
+
+* {
+  font-family: var(--theme-fontFamily);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-backgroundColor);
+  color: var(--theme-textColor);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: var(--theme-darkBackgroundColor, #111827);
+  color: var(--theme-darkTextColor, #f9fafb);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Animation for timer pulse */
+@keyframes pulse-timer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-timer {
+  animation: pulse-timer 1s ease-in-out infinite;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 640px) {
+  table {
+    font-size: 12px;
+  }
+  
+  .p-3 {
+    padding: 0.5rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  header, footer, button {
+    display: none !important;
+  }
+  
+  main {
+    padding: 0 !important;
+  }
+}

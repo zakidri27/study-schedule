@@ -1,0 +1,8 @@
+{
+  "appId": "com.studyschedule.app",
+  "appName": "Study Schedule",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

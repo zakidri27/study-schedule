@@ -1,0 +1,12 @@
+{
+  "primaryColor": "#ec4899",
+  "secondaryColor": "#a855f7",
+  "accentColor": "#db2777",
+  "backgroundColor": "#fff1f7",
+  "surfaceColor": "#ffffff",
+  "textColor": "#4b1533",
+  "darkBackgroundColor": "#2a1220",
+  "darkTextColor": "#ffe4f0",
+  "borderRadius": "18px",
+  "fontFamily": "\"Comic Sans MS\", \"Segoe UI\", Tahoma, sans-serif"
+}

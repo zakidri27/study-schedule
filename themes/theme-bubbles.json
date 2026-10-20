@@ -1,0 +1,14 @@
+{
+    "primaryColor":  "#38bdf8",
+    "secondaryColor":  "#a78bfa",
+    "accentColor":  "#f472b6",
+    "backgroundColor":  "#eef7ff",
+    "surfaceColor":  "#ffffff",
+    "textColor":  "#2f3e51",
+    "darkBackgroundColor":  "#101b33",
+    "darkTextColor":  "#e6f0ff",
+    "borderRadius":  "26px",
+    "fontFamily":  "\"Comic Sans MS\", \"Segoe UI\", cursive",
+    "emblem":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzM4YmRmOCIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNDAiIHI9IjE2IiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuNTUiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjM0IiByPSIxMCIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjQ1Ii8+PGNpcmNsZSBjeD0iNjAiIGN5PSI2MiIgcj0iMjAiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ii8+PGNpcmNsZSBjeD0iMzIiIGN5PSI2OCIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjUiLz48L3N2Zz4=",
+    "watermark":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzM4YmRmOCIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNDAiIHI9IjE2IiBmaWxsPSIjZmZmZmZmIiBmaWxsLW9wYWNpdHk9IjAuNTUiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjM0IiByPSIxMCIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjQ1Ii8+PGNpcmNsZSBjeD0iNjAiIGN5PSI2MiIgcj0iMjAiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ii8+PGNpcmNsZSBjeD0iMzIiIGN5PSI2OCIgcj0iOSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjUiLz48L3N2Zz4="
+}
